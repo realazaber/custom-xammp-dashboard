@@ -1,0 +1,150 @@
+* {
+  overflow-x: hidden;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px auto;
+  padding: 0px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  background-color: #0d1117;
+}
+
+body #header-banner {
+  background-color: #161b22;
+  width: 100vw;
+  text-align: center;
+}
+
+body #header-banner #page-title {
+  font-size: 3rem;
+  color: #16F529;
+}
+
+body #nav-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 20px auto;
+}
+
+body #nav-buttons .btn-projects {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: #161b22;
+  border: 1px solid #16F529;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+body #nav-buttons .btn-projects:hover {
+  cursor: pointer;
+  background-color: #0d1117;
+}
+
+body #resources h2, body #resources h3, body #resources h4, body #resources h5, body #resources h6 {
+  color: #16F529;
+}
+
+body #resources h2 {
+  padding: 0px 70px;
+}
+
+body #resources p, body #resources b {
+  color: #ffffff;
+}
+
+body #resources #guides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+}
+
+body #resources #guides .guide {
+  background-color: #161b22;
+  padding: 15px 20px;
+  margin: 10px;
+  min-height: 150px;
+  width: 40%;
+}
+
+body #resources #guides .guide h3 {
+  font-weight: bold;
+}
+
+body #resources #guides .guide a {
+  display: block;
+  margin: 10px 0px;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+body #resources #guides .guide a:hover {
+  font-style: italic;
+}
+
+body #resources #guides .guide .debug-heading {
+  color: yellow;
+}
+
+body #resources #guides .guide .debug-text {
+  color: #d5d500;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #161b22;
+  color: #d8d8d8;
+  width: 100vw;
+  padding: 20px 30px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=main.css.map */

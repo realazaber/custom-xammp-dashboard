@@ -1,0 +1,129 @@
+$primary-color: #0d1117;
+$secondary-color: #161b22;
+
+$primary-textcolor: #16F529;
+$secondary-textcolor: #ffffff;
+$thirdary-textcolor: #d8d8d8;
+
+* {
+    overflow-x: hidden;
+    transition-duration: 500ms;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 0px 30px;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: $primary-color;
+
+    #header-banner {
+        background-color: $secondary-color;
+        width: 100vw;
+        text-align: center;
+
+        #page-title {
+            font-size: 3rem;
+            color: $primary-textcolor;
+        }
+    }
+
+    #nav-buttons {
+        display: flex;
+        flex-direction: row;
+        margin: 20px auto;
+
+        .btn-projects {
+            padding: 5px 10px;
+            margin: 10px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            background-color: $secondary-color;
+            border: 1px solid $primary-textcolor;
+            color: $secondary-textcolor;
+            border-radius: 10px;
+            padding: 10px 15px;
+
+            
+
+            &:hover {
+                cursor: pointer;
+                background-color: $primary-color;
+            }
+        }
+    }
+
+    #resources {
+
+        h2, h3, h4, h5, h6 {
+            color: $primary-textcolor;
+        }
+
+        h2 {
+            padding: 0px 70px;
+        }
+
+        p, b {
+            color: $secondary-textcolor;
+        }
+
+        #guides {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 80vw;
+
+            .guide {
+                background-color: $secondary-color;
+                padding: 15px 20px;
+                margin: 10px;
+                min-height: 150px;
+                width: 40%;
+
+                h3 {
+                    font-weight: bold;
+                }
+
+                a {
+                    display: block;
+                    margin: 10px 0px;
+                    text-decoration: none;
+                    font-style: normal;
+                    font-size: 1.3rem;
+                    
+                    &:hover {
+                        font-style: italic;
+                    }
+                }
+
+                .debug-heading {
+                    color: yellow;
+                }
+
+                .debug-text {
+                    color: rgb(213, 213, 0);
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $secondary-color;
+        color: $thirdary-textcolor;
+        width: 100vw;
+        padding: 20px 30px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+}
